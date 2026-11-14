@@ -8,7 +8,10 @@
     "scheme": "sembravida",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SembraVida utiliza tu ubicación para identificar las condiciones ambientales de tu terreno y generar un análisis agrícola."
+      }
     },
     "android": {
       "adaptiveIcon": {
